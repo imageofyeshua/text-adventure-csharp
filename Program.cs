@@ -3,9 +3,11 @@
 class Program
 {
     public static Player currentPlayer = new Player();
+
     static void Main(string[] args)
     {
         Start();
+        Encounters.FirstEncounter();
     }
 
     static void Start()
